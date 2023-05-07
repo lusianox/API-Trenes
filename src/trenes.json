@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "Marca": "CSR",
+        "Pais": "China",
+        "Servicio": "Línea Sarmiento, Roca y Mitre"
+    },
+    {
+        "id": 2,
+        "Marca": "Toshiba",
+        "Pais": "Japón",
+        "Servicio": "Línea Roca"
+    },
+    {
+        "id": 3,
+        "Marca": "Emepa Alerce",
+        "Pais": "Argentina",
+        "Servicio": "Tren de las Sierras"
+    }
+]
