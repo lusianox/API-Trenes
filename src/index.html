@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>API de Trenes</title>
+</head>
+
+<body>
+
+    <div class="title-container">
+        <h1>Bievenido a la API de Trenes</h1>
+        <h3>Seleccione un tren para ver su información</h3>
+    </div>
+
+    <div class="container">
+        <a href="#" id="img1"><img src="img/ALERCE/alerce1.jpg"></a>
+        <a href="#" id="img2"><img src="img/CSR MITSUBISHI/csr1.jpg"></a>
+        <a href="#" id="img3"><img src="img/TOSHIBA/toshiba1.jpg"></a>
+    </div>    
+
+    <div>
+        <table id="tabla-trenes" class="table table-bordered table-striped">
+            <thead>
+                <tr data-id="${tren.id}">
+                    <td>id</td>
+                    <td>Marca</td>
+                    <td>Pais</td>
+                    <td>Servicio</td>
+                  </tr>                  
+            </thead>
+            <tbody id="data">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="tabla.js"></script>
+</body>
+
+</html>
